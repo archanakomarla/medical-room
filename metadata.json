@@ -1,0 +1,7 @@
+{
+  "name": "Medical Room Designer",
+  "description": "An interactive tool to design a school's medical room. Capture a photo of the empty room using your camera, then drag, drop, resize, and rotate 2D objects like beds, trolleys, and screens to visualize the layout. Upload custom objects and save the final design as an image.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
