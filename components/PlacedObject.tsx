@@ -60,8 +60,10 @@ const PlacedObjectComponent: React.FC<PlacedObjectProps> = ({ object, isSelected
         break;
       case 'resize':
         if(interactionRef.current.startWidth && interactionRef.current.startHeight) {
+            const aspectRatio = interactionRef.current.startWidth / interactionRef.current.startHeight;
+            // Maintain aspect ratio by basing resize on horizontal drag distance
             const newWidth = Math.max(20, interactionRef.current.startWidth + dx);
-            const newHeight = Math.max(20, interactionRef.current.startHeight + dy);
+            const newHeight = newWidth / aspectRatio;
             onUpdate(object.id, { width: newWidth, height: newHeight });
         }
         break;

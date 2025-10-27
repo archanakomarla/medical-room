@@ -1,4 +1,3 @@
-
 import type { PredefinedObject } from './types';
 
 // Simple SVG placeholders converted to base64 data URLs
@@ -15,16 +14,16 @@ export const PREDEFINED_OBJECTS: PredefinedObject[] = [
   {
     id: 'bed_1',
     name: 'Hospital Bed',
-    src: createPlaceholder(200, 100, '#60a5fa', 'Bed'),
+    src: 'https://storage.googleapis.com/aistudio-hosting/prompts/images/hospital-bed.png',
     width: 200,
-    height: 100,
+    height: 114,
   },
   {
     id: 'trolley_1',
     name: 'Medical Trolley',
-    src: createPlaceholder(80, 60, '#f472b6', 'Trolley'),
-    width: 80,
-    height: 60,
+    src: 'https://storage.googleapis.com/aistudio-hosting/prompts/images/medical-trolley.png',
+    width: 100,
+    height: 100,
   },
   {
     id: 'screen_1',

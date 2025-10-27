@@ -68,7 +68,7 @@ export default function App() {
                 name: file.name.split('.')[0],
                 src: e.target?.result as string,
                 width: img.width > 200 ? 200 : img.width,
-                height: img.height > 200 ? (200 / img.width) * img.height : img.height,
+                height: img.width > 200 ? (200 / img.width) * img.height : img.height,
             };
             setCustomObjects(prev => [...prev, newCustomObject]);
         }
