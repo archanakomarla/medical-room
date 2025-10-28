@@ -15,7 +15,7 @@ export const PREDEFINED_OBJECTS: PredefinedObject[] = [
     id: 'bed_1',
     name: 'Hospital Bed',
     // STEP 2: Replace this URL with the direct link to YOUR hospital bed image
-    src: '../public/bed_1.png',
+    src: 'public/bed_1.png',
     width: 200, // You can adjust this
     height: 114, // You can adjust this
   },
@@ -23,7 +23,7 @@ export const PREDEFINED_OBJECTS: PredefinedObject[] = [
     id: 'trolley_1',
     name: 'Medical Trolley',
     // STEP 2: Replace this URL with the direct link to YOUR trolley image
-    src: '../public/trolley_1.png',
+    src: 'public/trolley_1.png',
     width: 100, // You can adjust this
     height: 100, // You can adjust this
   },
