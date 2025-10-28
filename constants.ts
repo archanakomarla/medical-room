@@ -14,16 +14,18 @@ export const PREDEFINED_OBJECTS: PredefinedObject[] = [
   {
     id: 'bed_1',
     name: 'Hospital Bed',
-    src: 'https://storage.googleapis.com/aistudio-hosting/prompts/images/hospital-bed.png',
-    width: 200,
-    height: 114,
+    // STEP 2: Replace this URL with the direct link to YOUR hospital bed image
+    src: '../public/bed_1.png',
+    width: 200, // You can adjust this
+    height: 114, // You can adjust this
   },
   {
     id: 'trolley_1',
     name: 'Medical Trolley',
-    src: 'https://storage.googleapis.com/aistudio-hosting/prompts/images/medical-trolley.png',
-    width: 100,
-    height: 100,
+    // STEP 2: Replace this URL with the direct link to YOUR trolley image
+    src: '../public/trolley_1.png',
+    width: 100, // You can adjust this
+    height: 100, // You can adjust this
   },
   {
     id: 'screen_1',
